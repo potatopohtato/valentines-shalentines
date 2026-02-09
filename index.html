@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Khikhikhikhi honi chaiye bas ❤️</title>
+
+<style>
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(135deg,#ffe6f0,#fff5f8);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    width:360px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+img{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:15px;
+    transition:opacity 0.4s ease;
+}
+
+.scene{
+    color:#ff4d88;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.chatBubble{
+    background:#ffeff6;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:15px;
+    min-height:90px;
+}
+
+button{
+    background:#ff4d88;
+    color:white;
+    border:none;
+    padding:12px 18px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    margin:5px;
+}
+
+#noBtn{
+    position:absolute;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h2 id="intro">Henlooo Shishupal, I have a small question ❤️</h2>
+<button id="continueBtn" onclick="next()">Click to continue</button>
+
+<div id="valentine" style="display:none;">
+    <h2>Will you be my Valentine?</h2>
+    <button onclick="startStory()">Yes</button>
+    <button id="noBtn">No</button>
+</div>
+
+<div id="chat" style="display:none;">
+    <img id="sceneImg" src="images/placeholder.jpg">
+
+    <div class="scene" id="sceneTitle"></div>
+
+    <div class="chatBubble">
+        <p id="chatQ"></p>
+    </div>
+
+    <input placeholder="Your input"/>
+    <br><br>
+    <button onclick="nextQ()">Next</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
