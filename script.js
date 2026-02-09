@@ -2,22 +2,22 @@ let scenes = [
     {
     title:"Hello ji",
     q:"Oyeee, haan tum, sunoo na?...  haan wo valentine shalentine karke wo hai na? uski kuch plaaannning karni thi aur aapka thodi si inputs chaiye tha",
-    img:"pictures/Akshay-Kumar-Meme-templates-04.jpeg"
+    img:"Akshay-Kumar-Meme-templates-04.jpeg"
     },
     {
     title:"kya boltiii publiccccc sceneeszzzz kya hai?",
     q:"Soch raha tha hum dono saath mein kuch cutu sa kar sakte hai, I was thinking we can dress each other up and do a nice photo shoot saath mein, saath baith ke bollywood quiz khel sakte hai ya we can do a cutu art/painting date, tumhara dil kis taraf jaa raha hai cutie?",
-    img:"pictures/iss-gopal-ke-batche-ka-kuch-karna-padega.jpg"
+    img:"iss-gopal-ke-batche-ka-kuch-karna-padega.jpg"
     },
     {
     title:"Food ka kya scene?  🍰",
     q:"Theek hai, abhi suno, sabse important part — date ke beech mein agar tumhari tummy se bur bur karke sound aagaya toh kya khaana pasand karoge? mai kuch comfort sa banau easy sa? ya aapko pani puri competition mein participate karna hai?",
-    img:"pictures/rajesh-khanna-hey-girl-meme.webp"
+    img:"rajesh-khanna-hey-girl-meme.webp"
     },
     {
     title:"Oye shawtyyyy, tera hero hu mai 🌹",
     q:"Also, You get to choose your hero for the day, You can choose any of your favourite actor and I will be that person for you (roleplay happening hehehe)",
-    img:"pictures/rahul-naam-toh-suna-hoga.jpg"
+    img:"rahul-naam-toh-suna-hoga.jpg"
     }
     ];
     
@@ -118,4 +118,5 @@ let scenes = [
         this.style.top = Math.random()*400 + "px";
         this.style.left = Math.random()*400 + "px";
     });
+
     
